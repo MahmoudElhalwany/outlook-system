@@ -1,0 +1,17 @@
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\bin\x86\Debug\ProjectDB2.exe.config
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\bin\x86\Debug\ProjectDB2.exe
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\bin\x86\Debug\ProjectDB2.pdb
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\bin\x86\Debug\MaterialSkin.dll
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\bin\x86\Debug\Oracle.DataAccess.dll
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.Form1.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.Inbox.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.Properties.Resources.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.Send_Mail.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.Sign_In.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.Sign_Up.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.csproj.GenerateResource.cache
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.csproj.CoreCompileInputs.cache
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.csproj.CopyComplete
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.exe
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.pdb
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\x86\Debug\ProjectDB2.csprojAssemblyReference.cache
