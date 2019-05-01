@@ -6,24 +6,28 @@ C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\bin\De
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Form1.resources
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Inbox.resources
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Properties.Resources.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Report.resources
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Send_Mail.resources
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Sign_In.resources
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Sign_Up.resources
-C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.csproj.GenerateResource.cache
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.csproj.GenerateResource.Cache
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.exe
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.pdb
-C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Send_Mail.resources
 C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.csprojResolveAssemblyReference.cache
+C:\Users\NOLA\Documents\Visual Studio 2012\Projects\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Reports.resources
+C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.csprojResolveAssemblyReference.cache
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\bin\Debug\ProjectDB2.exe.config
-C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.exe
-C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.pdb
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\bin\Debug\ProjectDB2.exe
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\bin\Debug\ProjectDB2.pdb
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\bin\Debug\MaterialSkin.dll
-C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.csprojResolveAssemblyReference.cache
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Form1.resources
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Inbox.resources
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Properties.Resources.resources
+C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Report.resources
+C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Reports.resources
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Send_Mail.resources
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Sign_In.resources
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.Sign_Up.resources
 C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.csproj.GenerateResource.Cache
+C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.exe
+C:\Users\mashr\Desktop\ProjectDB2\ProjectDB2\ProjectDB2\obj\Debug\ProjectDB2.pdb

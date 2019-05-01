@@ -33,9 +33,16 @@
             this.tab_inbox = new System.Windows.Forms.TabPage();
             this.tab_draft = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btn_send = new MaterialSkin.Controls.MaterialFlatButton();
+            this.txt_sub = new System.Windows.Forms.TextBox();
+            this.txt_to = new System.Windows.Forms.TextBox();
+            this.txt_msg = new System.Windows.Forms.RichTextBox();
+            this.lbl_msg = new MaterialSkin.Controls.MaterialLabel();
+            this.lbl_sub = new MaterialSkin.Controls.MaterialLabel();
+            this.lbl_to = new MaterialSkin.Controls.MaterialLabel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.materialFlatButton1 = new MaterialSkin.Controls.MaterialFlatButton();
+            this.btn_sendmsg = new MaterialSkin.Controls.MaterialFlatButton();
             this.materialTabControl1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -90,14 +97,99 @@
             // 
             this.panel1.BackgroundImage = global::ProjectDB2.Properties.Resources.email;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.btn_send);
+            this.panel1.Controls.Add(this.txt_sub);
+            this.panel1.Controls.Add(this.txt_to);
+            this.panel1.Controls.Add(this.txt_msg);
+            this.panel1.Controls.Add(this.lbl_msg);
+            this.panel1.Controls.Add(this.lbl_sub);
+            this.panel1.Controls.Add(this.lbl_to);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.dataGridView1);
-            this.panel1.Controls.Add(this.materialFlatButton1);
+            this.panel1.Controls.Add(this.btn_sendmsg);
             this.panel1.Controls.Add(this.materialTabControl1);
             this.panel1.Location = new System.Drawing.Point(1, 94);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(798, 357);
             this.panel1.TabIndex = 4;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // btn_send
+            // 
+            this.btn_send.AutoSize = true;
+            this.btn_send.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_send.Depth = 0;
+            this.btn_send.Location = new System.Drawing.Point(497, 295);
+            this.btn_send.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_send.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_send.Name = "btn_send";
+            this.btn_send.Primary = false;
+            this.btn_send.Size = new System.Drawing.Size(47, 36);
+            this.btn_send.TabIndex = 11;
+            this.btn_send.Text = "SEND";
+            this.btn_send.UseVisualStyleBackColor = true;
+            this.btn_send.Click += new System.EventHandler(this.btn_send_Click);
+            // 
+            // txt_sub
+            // 
+            this.txt_sub.Location = new System.Drawing.Point(137, 197);
+            this.txt_sub.Name = "txt_sub";
+            this.txt_sub.Size = new System.Drawing.Size(333, 20);
+            this.txt_sub.TabIndex = 10;
+            // 
+            // txt_to
+            // 
+            this.txt_to.Location = new System.Drawing.Point(137, 162);
+            this.txt_to.Name = "txt_to";
+            this.txt_to.Size = new System.Drawing.Size(333, 20);
+            this.txt_to.TabIndex = 9;
+            // 
+            // txt_msg
+            // 
+            this.txt_msg.Location = new System.Drawing.Point(137, 248);
+            this.txt_msg.Name = "txt_msg";
+            this.txt_msg.Size = new System.Drawing.Size(333, 96);
+            this.txt_msg.TabIndex = 8;
+            this.txt_msg.Text = "";
+            // 
+            // lbl_msg
+            // 
+            this.lbl_msg.AutoSize = true;
+            this.lbl_msg.Depth = 0;
+            this.lbl_msg.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_msg.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_msg.Location = new System.Drawing.Point(11, 282);
+            this.lbl_msg.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_msg.Name = "lbl_msg";
+            this.lbl_msg.Size = new System.Drawing.Size(70, 19);
+            this.lbl_msg.TabIndex = 7;
+            this.lbl_msg.Text = "Message";
+            // 
+            // lbl_sub
+            // 
+            this.lbl_sub.AutoSize = true;
+            this.lbl_sub.Depth = 0;
+            this.lbl_sub.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_sub.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_sub.Location = new System.Drawing.Point(3, 198);
+            this.lbl_sub.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_sub.Name = "lbl_sub";
+            this.lbl_sub.Size = new System.Drawing.Size(59, 19);
+            this.lbl_sub.TabIndex = 6;
+            this.lbl_sub.Text = "Subject";
+            // 
+            // lbl_to
+            // 
+            this.lbl_to.AutoSize = true;
+            this.lbl_to.Depth = 0;
+            this.lbl_to.Font = new System.Drawing.Font("Roboto", 11F);
+            this.lbl_to.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lbl_to.Location = new System.Drawing.Point(11, 163);
+            this.lbl_to.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lbl_to.Name = "lbl_to";
+            this.lbl_to.Size = new System.Drawing.Size(27, 19);
+            this.lbl_to.TabIndex = 5;
+            this.lbl_to.Text = "To";
             // 
             // pictureBox1
             // 
@@ -120,25 +212,26 @@
             this.dataGridView1.GridColor = System.Drawing.Color.DarkSlateGray;
             this.dataGridView1.Location = new System.Drawing.Point(0, 0);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(470, 357);
+            this.dataGridView1.Size = new System.Drawing.Size(470, 144);
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
+            this.dataGridView1.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellDoubleClick);
             // 
-            // materialFlatButton1
+            // btn_sendmsg
             // 
-            this.materialFlatButton1.AutoSize = true;
-            this.materialFlatButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialFlatButton1.Depth = 0;
-            this.materialFlatButton1.Location = new System.Drawing.Point(637, 295);
-            this.materialFlatButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialFlatButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialFlatButton1.Name = "materialFlatButton1";
-            this.materialFlatButton1.Primary = false;
-            this.materialFlatButton1.Size = new System.Drawing.Size(113, 36);
-            this.materialFlatButton1.TabIndex = 3;
-            this.materialFlatButton1.Text = "Send Message";
-            this.materialFlatButton1.UseVisualStyleBackColor = true;
-            this.materialFlatButton1.Click += new System.EventHandler(this.materialFlatButton1_Click);
+            this.btn_sendmsg.AutoSize = true;
+            this.btn_sendmsg.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_sendmsg.Depth = 0;
+            this.btn_sendmsg.Location = new System.Drawing.Point(637, 295);
+            this.btn_sendmsg.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.btn_sendmsg.MouseState = MaterialSkin.MouseState.HOVER;
+            this.btn_sendmsg.Name = "btn_sendmsg";
+            this.btn_sendmsg.Primary = false;
+            this.btn_sendmsg.Size = new System.Drawing.Size(113, 36);
+            this.btn_sendmsg.TabIndex = 3;
+            this.btn_sendmsg.Text = "Send Message";
+            this.btn_sendmsg.UseVisualStyleBackColor = true;
+            this.btn_sendmsg.Click += new System.EventHandler(this.materialFlatButton1_Click);
             // 
             // Inbox
             // 
@@ -167,8 +260,15 @@
         private System.Windows.Forms.TabPage tab_draft;
         private MaterialSkin.Controls.MaterialTabSelector materialTabSelector1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private MaterialSkin.Controls.MaterialFlatButton materialFlatButton1;
+        private MaterialSkin.Controls.MaterialFlatButton btn_sendmsg;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txt_sub;
+        private System.Windows.Forms.TextBox txt_to;
+        private System.Windows.Forms.RichTextBox txt_msg;
+        private MaterialSkin.Controls.MaterialLabel lbl_msg;
+        private MaterialSkin.Controls.MaterialLabel lbl_sub;
+        private MaterialSkin.Controls.MaterialLabel lbl_to;
+        private MaterialSkin.Controls.MaterialFlatButton btn_send;
     }
 }

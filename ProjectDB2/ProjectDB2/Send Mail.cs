@@ -89,10 +89,11 @@ namespace ProjectDB2
 
             OracleCommand cmd = new OracleCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into draft values (:id,:drafted_mail,:mailTo)";
+            cmd.CommandText = "insert into draft values (:id,:drafted_mail,:mailTo,:subject)";
             cmd.Parameters.Add("id", Sign_In.idd);
             cmd.Parameters.Add("drafted_mail", txt_msg.Text);
             cmd.Parameters.Add("mailTo", txt_to.Text);
+            cmd.Parameters.Add("subject", txt_sub.Text);
             int n = cmd.ExecuteNonQuery();
             if (n != -1)
             {
@@ -174,13 +175,18 @@ namespace ProjectDB2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            OpenFileDialog ofd = new OpenFileDialog();
-            ofd.Filter = "JPG Files(*.jpg)|*.jpg|PNG Files (*.png)*.png|All Files ";
-            if (ofd.ShowDialog() == DialogResult.OK)
-            {
+            
+        }
 
-                pictureBox1.Image = Image.FromFile(ofd.FileName);   
-            }
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Report re = new Report();
+            re.Show();
         }
     }
     }

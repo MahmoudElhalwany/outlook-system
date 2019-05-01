@@ -48,5 +48,16 @@ namespace ProjectDB2
             this.Hide();
             signin.Show();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Reports report = new Reports();
+            report.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -1,0 +1,11 @@
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\bin\Debug\outlook_system.exe.config
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\bin\Debug\outlook_system.exe
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\bin\Debug\outlook_system.pdb
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\bin\Debug\Oracle.DataAccess.dll
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.csprojResolveAssemblyReference.cache
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.Properties.Resources.resources
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.csproj.GenerateResource.Cache
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.exe
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.pdb
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.signin.resources
+C:\Users\mashr\Desktop\database\outlook-system\outlook_system\outlook_system\obj\Debug\outlook_system.mainMenu.resources
